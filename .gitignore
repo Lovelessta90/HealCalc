@@ -1,0 +1,35 @@
+# Ignore virtual environment folders
+venv/
+env/
+myenv/
+
+# Ignore Python cache files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# Ignore OS-specific system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore Matplotlib cache
+~/.matplotlib/
+
+# Ignore PyCharm and VSCode project settings
+.idea/
+.vscode/
+
+# Ignore files related to Tkinter GUI cache
+*.tcl
+*.tk
